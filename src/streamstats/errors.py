@@ -1,14 +1,22 @@
 class StreamStatsError(Exception):
-    pass
+    """Базовое исключение проекта StreamStats."""
+
 
 class UnsupportedFormatError(StreamStatsError):
-    pass
+    """Исключение для неподдерживаемого формата файла."""
+
 
 class InvalidEventError(StreamStatsError):
-    pass
+    """Исключение для неверного события."""
+
 
 class InvalidTimestampError(StreamStatsError):
-    pass
+    """Исключение для неверной временной метки."""
+
 
 class CLIConfigError(StreamStatsError):
-    pass
+    """Исключение для ошибки конфигурации CLI."""
+
+
+class InputFileError(StreamStatsError):
+    """Исключение при ошибке доступа к файлу."""
