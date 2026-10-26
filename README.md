@@ -22,7 +22,7 @@ Python 3.10 или новее.
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -e
+pip install -e .
 ```
 После этого начало командной строки терминала должно выглядеть примерно так:
 ```
