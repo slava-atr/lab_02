@@ -222,3 +222,5 @@ __marimo__/
 
 # Test files
 test_data/
+
+report.json
